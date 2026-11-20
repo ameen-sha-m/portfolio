@@ -7,7 +7,40 @@ const skills=[
 const projects=[
    {title:'Personal Portfolio Website',cat:'web',label:'WEB DEVELOPMENT',demo:'#',desc:'A responsive, accessible portfolio with a distinctive cyber-security visual language.',tech:['HTML5','CSS3','Vanilla JS'],bg:'linear-gradient(135deg,#0d5963,#17315f)',problem:'A professional presence should show both personality and technical craft.',objective:'Build a fast, framework-free site that is easy to customize.',features:['Project modal','Responsive navigation','Scroll animations'],security:'No user data collection; contact form uses mailto only.',challenge:'Creating visual polish without third-party UI frameworks.',solution:'Used semantic HTML, reusable CSS patterns, and lightweight JavaScript.'},
    {title:'Wedding Invitation Website',cat:'web',label:'WEB DEVELOPMENT',demo:'https://wedding-invitation-rose-tau.vercel.app/',desc:'A digital wedding invitation website designed to provide event details and an interactive experience for guests. It is created for learning purpose.',tech:['Next.js','React.js','TypeScript','Tailwind CSS','Framer Motion','GSAP','GSAP ScrollTrigger','HTML5','CSS3','JavaScript','Lottie Animations','Responsive Web Design','Node.js','npm','Git','GitHub','Vercel'],bg:'linear-gradient(135deg,#7b1fa2,#ec4899)',problem:'Guests need a polished, mobile-friendly way to access invitation details and event information.',objective:'Create a beautiful, interactive wedding invitation experience for learning and presentation purposes.',features:['Elegant responsive design','Event information and schedule','Image gallery and animations','Mobile-friendly user interface'],security:'Built as a front-end learning project with no sensitive guest data handling.',challenge:'Balancing elegance and performance while keeping the experience interactive and responsive.',solution:'Used modern UI techniques, motion libraries, and a lightweight component structure.'},
- //{title:'Cyber Awareness Portal',cat:'cyber',label:'CYBER SECURITY',desc:'An approachable learning hub that turns safe online habits into daily practice.',tech:['HTML','CSS','JavaScript'],bg:'linear-gradient(135deg,#075c6d,#1b315a)',problem:'Security awareness resources can feel dense and disconnected from everyday online decisions.',objective:'Create an engaging, accessible portal for practical cyber safety learning.',features:['Interactive learning modules','Phishing awareness quiz','Responsive dashboard'],security:'Input validation patterns, privacy-first form design, and secure-content guidance.',challenge:'Making security topics feel useful rather than intimidating.',solution:'Used plain language, small learning steps, and scenario-led interactions.'},
+   
+{
+    title: 'Campaign Poster Generator',
+    cat: 'web',
+    label: 'WEB DEVELOPMENT',
+    demo: 'https://ameen-sha-m.github.io/photo-frame/',
+    github: 'https://github.com/ameen-sha-m/photo-frame',
+    desc: 'A responsive web application that allows users to upload their photos, customize their position, and generate personalized campaign posters.',
+    tech: [
+        'HTML5',
+        'CSS3',
+        'JavaScript',
+        'Canvas API',
+        'Git',
+        'GitHub Pages'
+    ],
+    bg: 'linear-gradient(135deg,#075985,#06b6d4)',
+    problem: 'Creating personalized campaign posters often requires image-editing software and design skills.',
+    objective: 'Build a simple browser-based application that allows anyone to add their photo to a predefined campaign poster template.',
+    features: [
+        'Photo upload with file validation',
+        'Photo zoom and position adjustment',
+        'Layer-based poster composition',
+        'Live poster preview',
+        'Reset photo adjustments',
+        'PNG poster download',
+        'Responsive user interface'
+    ],
+    security: 'Photos are processed directly in the browser using JavaScript and the Canvas API. No backend photo storage or user registration is required.',
+    challenge: 'Combining the uploaded photo with the poster design while maintaining the correct foreground and background layering.',
+    solution: 'Used the HTML Canvas API to combine background, uploaded photo, and transparent foreground layers into a downloadable poster.'
+},
+
+  //{title:'Cyber Awareness Portal',cat:'cyber',label:'CYBER SECURITY',desc:'An approachable learning hub that turns safe online habits into daily practice.',tech:['HTML','CSS','JavaScript'],bg:'linear-gradient(135deg,#075c6d,#1b315a)',problem:'Security awareness resources can feel dense and disconnected from everyday online decisions.',objective:'Create an engaging, accessible portal for practical cyber safety learning.',features:['Interactive learning modules','Phishing awareness quiz','Responsive dashboard'],security:'Input validation patterns, privacy-first form design, and secure-content guidance.',challenge:'Making security topics feel useful rather than intimidating.',solution:'Used plain language, small learning steps, and scenario-led interactions.'},
  //{title:'Vulnerability Reporting Portal',cat:'cyber',label:'CYBER SECURITY',demo:'https://example.com/vulnerability-reporting',statusLabel:'under devoloping',desc:'A structured concept for receiving, tracking, and responsibly triaging security reports.',tech:['JavaScript','REST API','UI/UX'],bg:'linear-gradient(135deg,#412063,#0c5261)',problem:'Teams need a clear, respectful route for responsible disclosure.',objective:'Design a transparent reporting experience that guides researchers and teams.',features:['Report intake workflow','Status tracking concept','Severity guidance'],security:'Designed around minimum data collection and safe disclosure principles.',challenge:'Balancing detailed reporting needs with a simple interface.',solution:'Created progressive disclosure and structured report fields.'},
  //{title:'Study Companion AI',cat:'ai',label:'AI / ML',desc:'A focused study assistant concept that helps students organize topics and practice.',tech:['JavaScript','LLM','APIs'],bg:'linear-gradient(135deg,#173875,#69318a)',problem:'Students often lose time organizing learning across multiple sources.',objective:'Offer a simple interface for guided study prompts and revision.',features:['Topic planner','Prompt templates','Revision checklist'],security:'Clear privacy notice and no storage in the front-end prototype.',challenge:'Keeping the product focused instead of building a generic chatbot.',solution:'Designed task-oriented flows around real student needs.'},
  //{title:'Network Traffic Analyzer',cat:'networking',label:'NETWORKING',desc:'A lab project exploring packet behaviour, protocols, and network visibility.',tech:['Wireshark','Python','Networking'],bg:'linear-gradient(135deg,#064a63,#263d73)',problem:'Raw packet data is difficult for beginners to interpret.',objective:'Document and visualize core traffic patterns from a controlled lab.',features:['Protocol inspection','Traffic summaries','Lab documentation'],security:'All testing is limited to an authorised local lab environment.',challenge:'Connecting theoretical networking concepts to real captures.',solution:'Created guided observations and repeatable lab notes.'}
